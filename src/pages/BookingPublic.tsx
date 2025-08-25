@@ -8,7 +8,7 @@ import { emailProvider } from '../services/emailProvider';
 import { PROFESSIONAL_INFO } from '../config/availabilityConfig';
 import type { BookingFormData, CreateBookingPayload } from '../features/booking/types';
 import { BookingForm } from '../components/BookingForm';
-import { format, addDays, startOfMonth, endOfMonth, startOfWeek, endOfWeek, eachDayOfInterval, isSameMonth, isToday, isBefore, isSameDay } from 'date-fns';
+import { format, addDays, startOfMonth, endOfMonth, startOfWeek, endOfWeek, eachDayOfInterval, isSameMonth, isToday, isBefore } from 'date-fns';
 import { getCurrentZonedTime } from '../services/time';
 
 // Função para traduzir meses

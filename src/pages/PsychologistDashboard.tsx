@@ -5,7 +5,7 @@ import { useAllBookings } from '../features/booking/hooks';
 import { formatDateTimeForDisplay } from '../services/time';
 import { PROFESSIONAL_INFO } from '../config/availabilityConfig';
 import type { Booking } from '../features/booking/types';
-import { format, parseISO, isToday, isTomorrow, isPast } from 'date-fns';
+import { parseISO, isToday, isTomorrow, isPast } from 'date-fns';
 
 export function PsychologistDashboard() {
     const navigate = useNavigate();
